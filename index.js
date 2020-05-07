@@ -25,7 +25,7 @@ module.exports = function (source) {
     return source.replace(matchPXExp, function (match) {
         // 获取rpx前面的数值
         var pxValue = parseFloat(match.slice(0, match.length - 3));
-        return (pxValue * scale).toFixed(2) + 'vw';
+        return (pxValue * scale).toFixed(6) + 'vw';
     });
 
 };

@@ -1,6 +1,6 @@
 {
   "name": "rpx-webpack-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rpx-webpack-loader是一个webpack loader，使用rpx作为单位实现屏幕自适应宽度布局。",
   "main": "index.js",
   "repository": {
